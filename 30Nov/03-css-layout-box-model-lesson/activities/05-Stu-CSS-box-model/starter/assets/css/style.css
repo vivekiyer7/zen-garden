@@ -1,0 +1,44 @@
+section {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border: 15px solid black;
+}
+
+/*
+img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+  
+*/
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.example {
+  padding: 20%;
+}
+
+.example-box {
+  padding: 40px 40px;
+}
+
+.image-padding {
+  /* Sets padding on all sides to 20px */
+  padding: 12px;
+  background-color: #84aad4;
+}
+
+.image-border {
+  /* Sets border on all sides */
+  border: 9px solid darkblue;
+}
+
+.image-margin {
+  /* Sets all sides to 20px */
+  margin: 8px;
+}
